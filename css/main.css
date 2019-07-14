@@ -106,6 +106,7 @@ ul, li {
 .location-title {
     color: #fff;
     font-size: 18px;
+    margin-left: 10px;
 }
 
 .filter {
@@ -149,6 +150,45 @@ ul, li {
     background: url("../img/pizza-active.svg") no-repeat;
 }
 
+.icon-burger {
+    background: url("../img/burger.svg") no-repeat;
+}
+
+.filter-item:hover .icon-burger {
+    background: url("../img/burger-active.svg") no-repeat;
+}
+
+.icon-shashlik {
+    background: url("../img/shashlik.svg") no-repeat;
+}
+
+.filter-item:hover .icon-shashlik {
+    background: url("../img/shashlik-active.svg") no-repeat;
+}
+
+.icon-nachos {
+    background: url("../img/nachos.png") no-repeat;
+}
+
+.filter-item:hover .icon-nachos {
+    background: url("../img/nachos-active.png") no-repeat;
+}
+
+.icon-dishes {
+    background: url("../img/dishes.png") no-repeat;
+}
+
+.filter-item:hover .icon-dishes {
+    background: url("../img/dishes-active.png") no-repeat;
+}
+
+.icon-soup {
+    background: url("../img/soup.svg") no-repeat;
+}
+
+.filter-item:hover .icon-soup {
+    background: url("../img/soup-active.svg") no-repeat;
+}
 
 
 
