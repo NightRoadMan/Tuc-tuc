@@ -190,5 +190,50 @@ ul, li {
     background: url("../img/soup-active.svg") no-repeat;
 }
 
+/*Стилизация блока с ресторанами*/
+.restorans {
+    padding: 25px 0 5px 0;
+}
 
+.restorans-item {
+    margin: 0 0 40px 0;
+}
+
+
+.restorans-head-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.restorans-item img {
+    border-radius: 9px;
+}
+
+.restorans-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.restorans-type-kitchen p {
+    margin: 0 0 0 7px;
+}
+
+.restorans-delivery {
+    color: #6F6F6F;
+    margin: 7px 0 0 0;
+}
+
+.yellow-active {
+    fill: #FAC917;
+}
+
+.restorans-rating {
+    margin: 7px 0 0 0;
+}
+
+.restorans-rating p {
+    margin: 0 0 0 5px;
+}
 
