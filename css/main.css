@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: "San Francisco", sans-serif;
+    color: #323545;
+    font-size: 16px;
+}
+
+/*Цвета:
+   Оранжевый: #EF7A47;
+ */
+
+/*Спецификация*/
+
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: #323545;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/*Стилизация шапки*/
+
+.header {
+    padding: 7px 0 7px 0;
+}
+
+.menu {
+    margin: 0px;
+}
+
+.block-registration {
+    margin-top: 1px;
+}
+
+.profile {
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+.block-registration-entry {
+    position: relative;
+    margin-right: 10px;
+}
+
+.block-registration-entry:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background: #EF7A47;
+    top: 2%;
+    right: -8px;
+}
+
+.menu-link {
+    color: #979797;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.menu-link:hover {
+    color: #EF7A47;
+    text-decoration: none;
+}
+
+/*Стилизация блока с поиском и фильтром*/
+
+.finder {
+    height: 355px;
+    background: url("../img/bakcground.jpg") no-repeat bottom;
+    background-size: cover;
+}
+
+.finder-group {
+    position: relative;
+    width: 100%;
+}
+.finder-search {
+    height: 55px;
+    width: 100%;
+    margin-top: 145px;
+    padding: 15px;
+    border: 0px;
+    font-size: 16px;
+    margin-bottom: 38px;
+}
+
+.finder-submit {
+    width: 25px;
+    height: 25px;
+    background: url("../img/finder.svg") no-repeat;
+    background-size: cover;
+    border: 0px;
+    position: absolute;
+    top: 68%;
+    right:3%;
+}
+
+.location-title {
+    color: #fff;
+    font-size: 18px;
+}
+
+.filter {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.filter-item {
+    cursor: pointer;
+}
+
+.filter-icon {
+    width: 38px;
+    height: 38px;
+}
+
+.icon-sushi {
+    background: url("../img/sushi.svg") no-repeat;
+    background-size: cover;
+}
+
+.filter-icon-title {
+    font-size: 16px;
+    color: #fff;
+    margin: 0 0 0 8px;
+}
+
+.filter-item:hover .icon-sushi {
+    background: url("../img/sushi-active.svg") no-repeat;
+}
+
+.filter-item:hover .filter-icon-title {
+    color: #EF7A47;
+}
+
+.icon-pizza {
+    background: url("../img/pizza.svg") no-repeat;
+}
+
+.filter-item:hover .icon-pizza {
+    background: url("../img/pizza-active.svg") no-repeat;
+}
+
+
+
+
