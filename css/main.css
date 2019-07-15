@@ -237,3 +237,53 @@ ul, li {
     margin: 0 0 0 5px;
 }
 
+/* Стилизация футера */
+
+.footer {
+    background: #F7F7F7;
+    padding: 50px 0 25px 0;
+}
+
+.footer-head-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 25px 0;
+}
+
+.footer-menu-item {
+    margin: 0 0 20px 0;
+}
+
+.footer-menu-item a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #323545;
+}
+
+.footer-menu-item a:hover {
+    color: #EF7A47;
+    text-decoration: none;
+}
+
+.footer-download-link a:first-child {
+    margin: 0 15px 25px 0;
+}
+
+.footer-head-description {
+    font-size: 18px;
+    width: 297px;
+    font-weight: 500;
+}
+
+.footer-stroke {
+    height: 1px;
+    width: 100%;
+    background: #979797;
+    margin: 150px 0 0 0;
+}
+
+.footer-name-company {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 25px 0 0 0;
+}
