@@ -1,0 +1,19 @@
+@media screen and (max-width: 980px) {
+    .finder {
+        height: 200px;
+    }
+
+    .finder-search {
+        margin-top: 20px;
+    }
+
+    .finder-submit {
+        top: 34%;
+    }
+
+    .footer-stroke {
+        margin: 50px 0 0 0;
+    }
+}
+
+

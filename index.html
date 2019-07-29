@@ -8,16 +8,20 @@
     <title>Тук-тук</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="row d-flex justify-content-between">
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-5">
                     <img src="img/logo.png" alt="Logo" width="131" height="66" class="align-items-center">
                 </div>
-                <div class="col-lg-3 align-self-center">
+                <div class="menu-burger d-flex d-lg-none align-self-center"></div>
+                <div class="col-lg-3 d-none d-lg-block align-self-center">
                     <nav>
                         <ul class="d-flex justify-content-between menu">
                             <li><a href="#" class="menu-link">Еда</a></li>
@@ -26,7 +30,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-lg-3 align-self-center block-registration">
+                <div class="col-lg-4 align-self-center block-registration d-none d-lg-block">
                     <a href="#" class="block-registration-entry menu-link">Войти</a>
                     <a href="#" class="menu-link">Регистрация</a>
                     <img src="img/profile.svg" alt="profile" width="25" height="27" class="profile">
@@ -37,7 +41,7 @@
     <section class="finder">
         <div class="container">
             <div class="row justify-content-center">
-                    <form class="col-8 d-flex justify-content-center">
+                    <form class="col-lg-8 col-12 d-flex justify-content-center">
                         <div class="finder-group">
                             <input type="text" class="finder-search" placeholder="Поиск">
                             <input type="submit" class="finder-submit" value="">
@@ -51,7 +55,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 d-flex justify-content-between filter">
+                <div class="col-12 justify-content-between filter d-none d-lg-flex">
                     <div class="filter-item d-flex justify-content-start align-items-end">
                         <div class="filter-icon icon-sushi"></div>
                         <p class="filter-icon-title">Суши</p>
@@ -92,8 +96,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 restorans-item">
-                    <img src="img/restorans/tokio.jpg" width="350" height="187">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 restorans-item">
+                    <div class="restorans-item-picture  restorans-item_image"></div>
                     <h3>Tokio City</h3>
                     <div class="restorans-type-kitchen d-flex justify-content-start">
                         <img src="img/cook.png" width="22" height="22">
@@ -119,8 +123,8 @@
                         <p>4.0</p>
                     </div>
                 </div>
-                <div class="col-4 restorans-item">
-                    <img src="img/restorans/tokio.jpg" width="350" height="187">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 restorans-item">
+                    <div class="restorans-item-picture restorans-item_image"></div>
                     <h3>Tokio City</h3>
                     <div class="restorans-type-kitchen d-flex justify-content-start">
                         <img src="img/cook.png" width="22" height="22">
@@ -146,170 +150,8 @@
                         <p>4.0</p>
                     </div>
                 </div>
-                <div class="col-4 restorans-item">
-                    <img src="img/restorans/tokio.jpg" width="350" height="187">
-                    <h3>Tokio City</h3>
-                    <div class="restorans-type-kitchen d-flex justify-content-start">
-                        <img src="img/cook.png" width="22" height="22">
-                        <p>Японская</p>
-                    </div>
-                    <p class="restorans-delivery">Доставка от 800 руб.</p>
-                    <div class="restorans-rating d-flex justify-content-start">
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <p>4.0</p>
-                    </div>
-                </div>
-                <div class="col-4 restorans-item">
-                    <img src="img/restorans/tokio.jpg" width="350" height="187">
-                    <h3>Tokio City</h3>
-                    <div class="restorans-type-kitchen d-flex justify-content-start">
-                        <img src="img/cook.png" width="22" height="22">
-                        <p>Японская</p>
-                    </div>
-                    <p class="restorans-delivery">Доставка от 800 руб.</p>
-                    <div class="restorans-rating d-flex justify-content-start">
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <p>4.0</p>
-                    </div>
-                </div>
-                <div class="col-4 restorans-item">
-                    <img src="img/restorans/tokio.jpg" width="350" height="187">
-                    <h3>Tokio City</h3>
-                    <div class="restorans-type-kitchen d-flex justify-content-start">
-                        <img src="img/cook.png" width="22" height="22">
-                        <p>Японская</p>
-                    </div>
-                    <p class="restorans-delivery">Доставка от 800 руб.</p>
-                    <div class="restorans-rating d-flex justify-content-start">
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <p>4.0</p>
-                    </div>
-                </div>
-                <div class="col-4 restorans-item">
-                    <img src="img/restorans/tokio.jpg" width="350" height="187">
-                    <h3>Tokio City</h3>
-                    <div class="restorans-type-kitchen d-flex justify-content-start">
-                        <img src="img/cook.png" width="22" height="22">
-                        <p>Японская</p>
-                    </div>
-                    <p class="restorans-delivery">Доставка от 800 руб.</p>
-                    <div class="restorans-rating d-flex justify-content-start">
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <p>4.0</p>
-                    </div>
-                </div>
-                <div class="col-4 restorans-item">
-                    <img src="img/restorans/tokio.jpg" width="350" height="187">
-                    <h3>Tokio City</h3>
-                    <div class="restorans-type-kitchen d-flex justify-content-start">
-                        <img src="img/cook.png" width="22" height="22">
-                        <p>Японская</p>
-                    </div>
-                    <p class="restorans-delivery">Доставка от 800 руб.</p>
-                    <div class="restorans-rating d-flex justify-content-start">
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <p>4.0</p>
-                    </div>
-                </div>
-                <div class="col-4 restorans-item">
-                    <img src="img/restorans/tokio.jpg" width="350" height="187">
-                    <h3>Tokio City</h3>
-                    <div class="restorans-type-kitchen d-flex justify-content-start">
-                        <img src="img/cook.png" width="22" height="22">
-                        <p>Японская</p>
-                    </div>
-                    <p class="restorans-delivery">Доставка от 800 руб.</p>
-                    <div class="restorans-rating d-flex justify-content-start">
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <svg class="yellow-active" width="22" height="20" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11 0L14.2328 6.55041L21.4616 7.60081L16.2308 12.6996L17.4656 19.8992L11 16.5L4.53436 19.8992L5.76919 12.6996L0.538379 7.60081L7.76718 6.55041L11 0Z"/>
-                        </svg>
-                        <p>4.0</p>
-                    </div>
-                </div>
-                <div class="col-4 restorans-item">
-                    <img src="img/restorans/tokio.jpg" width="350" height="187">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 restorans-item">
+                    <div class="restorans-item-picture restorans-item_image"></div>
                     <h3>Tokio City</h3>
                     <div class="restorans-type-kitchen d-flex justify-content-start">
                         <img src="img/cook.png" width="22" height="22">
@@ -341,7 +183,7 @@
     <footer class="footer">
         <div class="container">
             <div class="row d-flex justify-content-between">
-                <div class="col-3">
+                <div class="col-lg-5 col-12">
                     <h2 class="footer-head-title">О компании</h2>
                     <nav>
                         <ul>
@@ -352,20 +194,20 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-4">
-                    <h2 class="footer-head-title">Для мобильных устройств</h2>
-                    <div class="footer-download-link d-flex justify-content-start">
-                        <a href="#"><img src="img/Appstore.png" height="48" width="159"></a>
-                        <a href="#"><img src="img/google%20play.png" height="48" width="159"></a>
+                <div class="col-lg-5 col-12">
+                        <h2 class="footer-head-title">Для мобильных устройств</h2>
+                        <div class="footer-download-link d-flex justify-content-start">
+                            <a href="#"><img src="img/Appstore.png" height="48" width="159"></a>
+                            <a href="#"><img src="img/google%20play.png" height="48" width="159"></a>
+                        </div>
+                        <p class="footer-head-description">Вы так же можете перейти на мобильную версию сайта</p>
                     </div>
-                    <p class="footer-head-description">Вы так же можете перейти на мобильную версию сайта</p>
                 </div>
-            </div>
             <div class="row">
                 <div class="col-12">
                     <div class="footer-stroke"></div>
                 </div>
-                <div class="col-3">
+                <div class="col-12">
                     <p class="footer-name-company">Тук-Тук 2019 г.</p>
                 </div>
             </div>
