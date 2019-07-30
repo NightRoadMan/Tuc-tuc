@@ -1,3 +1,6 @@
+
+
+
 @media screen and (max-width: 980px) {
     .finder {
         height: 200px;
@@ -14,6 +17,21 @@
     .footer-stroke {
         margin: 50px 0 0 0;
     }
+
+    .restoran-main-title h1 {
+        margin: 120px 0 0 0;
+    }
 }
+
+
+@media screen and (max-width: 980px) {
+
+    .restoran-review {
+        margin: 40px 0 0 0;
+    }
+}
+
+
+
 
 

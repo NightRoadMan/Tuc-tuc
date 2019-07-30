@@ -1,0 +1,110 @@
+.about-restoran {
+    padding: 35px 0 50px 0;
+}
+
+.restoran-main-title h1 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 250px;
+}
+
+.restorans-rating-restoran-size svg {
+    width: 25px;
+    height: 25px;
+    margin-left: 3px;
+    margin-top: -3px;
+}
+
+.restorans-rating-restoran-size svg:last-child {
+    fill: #979797;
+}
+
+.about-restoran-cousin {
+    margin-top: 30px;
+}
+
+.about-restoran-cousin img {
+    margin-right: 15px;
+    margin-top: -5px;
+}
+
+.about-restoran-cousin p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.rating-num {
+    font-size: 18px;
+}
+
+.restoran-review {
+    font-size: 18px;
+}
+
+.restoran-review p {
+    margin: 0 0 5px 0;
+}
+
+.restoran-review a {
+    text-decoration: none;
+    color: #FF2504;
+    font-weight: bold;
+}
+
+/* Стилизация карточек товаров */
+
+.card-food-cousine {
+    margin: 15px 5px 0 0;
+}
+
+.card-food-cousine p {
+    font-size: 12px;
+    margin: 0 5px 0 0;
+}
+
+.card-food-title {
+    font-weight: normal;
+}
+
+.card-food-title-description {
+    font-size: 15px;
+    color: #979797;
+}
+
+.card-food-buy p {
+    font-weight: bold;
+    font-size: 22px;
+    color: #FF3131;
+}
+
+.card-food-buy button {
+    background: #EF7A47;
+    border: 0;
+    width: 135px;
+    height: 35px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.restorans-item_image {
+    position: relative;
+}
+
+.card-food-discount {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    padding: 5px 10px;
+    background: #FFD714;
+    border-radius: 2px 12px 2px 12px;
+}
+
+.card-food-discount p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
