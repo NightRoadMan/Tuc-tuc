@@ -88,6 +88,10 @@
     border-radius: 7px;
 }
 
+.card-food-buy button:hover {
+    background: #D15017;
+}
+
 .restorans-item_image {
     position: relative;
 }
