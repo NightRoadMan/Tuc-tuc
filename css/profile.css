@@ -1,0 +1,72 @@
+.form_section {
+    padding: 80px 0 80px 0;
+}
+
+
+.profile-card {
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin: 0;
+}
+
+.profile-card h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.profile-card-text p {
+    color: #8A8A8F;
+    margin-bottom: 15px;
+}
+
+.profile-card-text span {
+    color: #8A8A8F;
+}
+
+.not-bg-button {
+    padding: 10px 35px 10px 35px;
+    border: 1px #EF7A47 solid;
+    font-weight: bold;
+    color: #EF7A47;
+    background: #fff;
+    border-radius: 7px;
+}
+
+.bg-button {
+    padding: 10px 35px 10px 35px;
+    font-weight: bold;
+    color: #fff;
+    background: #EF7A47;
+    border-radius: 7px;
+    border: none;
+}
+
+.profile-history-text p {
+    margin-bottom: 5px;
+}
+
+.profile-history-text span {
+    color: #EF7A47;
+    font-weight: bold;
+}
+
+.history-menu-list p {
+    color: #8A8A8F;
+}
+
+.history-menu-list span {
+    color: #8A8A8F;
+    font-weight: normal;
+}
+
+.history-stroke {
+    width: 100%;
+    height: 1px;
+    background: #ACACAC;
+    margin-top: 25px;
+}
+
+
+
