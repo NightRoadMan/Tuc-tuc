@@ -161,16 +161,12 @@ ul, li {
 }
 
 .restorans-type-kitchen p {
-    margin: 0 0 0 7px;
+    margin: 0 0 3px 7px;
 }
 
 .restorans-delivery {
     color: #6F6F6F;
     margin: 7px 0 0 0;
-}
-
-.yellow-active {
-    fill: #FAC917;
 }
 
 .restorans-rating {
