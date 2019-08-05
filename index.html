@@ -6,8 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Тук-тук</title>
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/formpay.css">
     <link rel="stylesheet" href="css/adaptive.css">
     <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
@@ -30,7 +32,9 @@
                     </nav>
                 </div>
                 <div class="col-lg-4 align-self-center block-registration d-none d-lg-block">
-                    <a href="#" class="block-registration-entry menu-link">Войти</a>
+                    <button type="button" class="entry-button" data-toggle="modal" data-target="#exampleModalCenter">
+                        Вход
+                    </button>
                     <a href="#" class="menu-link">Регистрация</a>
                     <img src="img/profile.svg" alt="profile" width="25" height="27" class="profile">
                 </div>
@@ -137,6 +141,30 @@
             </div>
         </div>
     </footer>
-<script src="js/bootstrap.min.js"></script>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content modal-style">
+                <button type="button" class="close modal-button-close d-flex justify-content-end align-self-end" data-dismiss="modal" aria-label="Close">
+                  <img src="img/Close.svg" width="26" height="26">
+                </button>
+                <div class="d-flex justify-content-center align-content-center mb-4">
+                    <img src="img/Logo_modal.jpg" width="58" height="58">
+                    <h3 class="modal-head">Регистрация</h3>
+                </div>
+                <input type="text" placeholder="Имя, Фамилия *" class="tuc-input w-100 mb-4" required>
+                <input type="tel" placeholder="Номер моб. телефона *" class="tuc-input w-100 mb-4" required>
+                <input type="text" placeholder="Email *" class="tuc-input w-100 mb-4">
+                <div class="d-flex flex-column justify-content-center align-content-center">
+                    <input type="button" class="bg-button w-50 align-self-center mb-3" value="Далее">
+                    <p class="text-center modal-text">Нажимая на кнопку <span>“Далее”</span>, я соглашаюсь с данными пользовательского соглашения
+                        и условиями политики конфиденциальнсти</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

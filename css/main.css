@@ -48,20 +48,32 @@ ul, li {
     margin-bottom: 2px;
 }
 
-.block-registration-entry {
+
+.entry-button {
+    background: #fff;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: #979797;
+    border: none;
     position: relative;
     margin-right: 10px;
 }
 
-.block-registration-entry:after {
+.entry-button:hover {
+    color: #EF7A47;
+}
+
+.entry-button:after {
     content: '';
     position: absolute;
     width: 2px;
     height: 20px;
     background: #EF7A47;
-    top: 2%;
+    top: 5px;
     right: -8px;
 }
+
+
 
 .menu-link {
     color: #979797;
@@ -236,6 +248,41 @@ ul, li {
     margin: 25px 0 0 0;
 }
 
+
+/*Стилизация модального окна */
+
+.modal-style {
+    padding: 25px 25px 15px 25px;
+}
+
+.modal-head {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 10px
+}
+
+.modal-text {
+    color: #8A8A8F;
+}
+
+.modal-text span {
+    color: #EF7A47;
+    font-weight: bold;
+}
+.modal-button-close {
+    opacity: 1;
+    display: block;
+    margin-top: -10px;
+    margin-right: -5px;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
 /* Адаптив Доп. элементы */
 
 .menu-burger {
@@ -244,4 +291,7 @@ ul, li {
     background: url("../img/menu-burger.svg") no-repeat;
     margin-right: 15px;
 }
+
+
+
 
