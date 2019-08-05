@@ -73,7 +73,27 @@ ul, li {
     right: -8px;
 }
 
+.block-registration-entry {
+    background: #fff;
+    font-size: 18px;
+    color: #979797;
+    position: relative;
+    margin-right: 10px;
+}
 
+.block-registration-entry:hover {
+    color: #EF7A47;
+}
+
+.block-registration-entry:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background: #EF7A47;
+    top: 2px;
+    right: -8px;
+}
 
 .menu-link {
     color: #979797;
