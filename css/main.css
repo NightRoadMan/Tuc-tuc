@@ -48,6 +48,7 @@ ul, li {
 .profile {
     margin-left: 5px;
     margin-bottom: 2px;
+    position: relative;
 }
 
 
@@ -356,7 +357,21 @@ ul, li {
     right: 30px;
 }
 
-
+.number_busket {
+    background: #DB1A1A;
+    border: 2px solid #fff;
+    position: absolute;
+    border-radius: 100px;
+    top: -12px;
+    left: 223px;
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+}
 
 /* Адаптив Доп. элементы */
 
@@ -366,6 +381,7 @@ ul, li {
     background: url("../img/menu-burger.svg") no-repeat;
     margin-right: 15px;
 }
+
 
 
 
