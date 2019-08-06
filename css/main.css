@@ -29,6 +29,8 @@ ul, li {
 
 .header {
     padding: 7px 0 7px 0;
+    position: relative;
+    z-index: 999999;
 }
 
 .header-shadow {
@@ -299,7 +301,60 @@ ul, li {
     height: 25px;
 }
 
+/* Стилизаци боковой корзины */
 
+.basket {
+    width: 23%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 999;
+    padding: 110px 25px 130px 25px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.basket h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.basket p {
+    font-size: 18px;
+}
+
+.basket_button {
+    width: 18px;
+    height: 18px;
+    border: none;
+    margin-top: 4px;
+}
+
+.icon_minos {
+    background: url("../img/minus.svg");
+    margin-right: 15px;
+}
+
+.icon_plus {
+    background: url("../img/plus.svg");
+    margin-left: 15px;
+}
+
+.basket-button-close {
+    border: 0;
+    background: url("../img/Close.svg");
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
 
 
 
