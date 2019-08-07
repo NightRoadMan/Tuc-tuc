@@ -373,6 +373,38 @@ ul, li {
     line-height: 20px;
 }
 
+/*Стилизация акций */
+.stocks-button {
+    width: 190px;
+    height: 80px;
+    border: 2px solid #B3B3B3;
+    background: #fff;
+    border-radius: 100px;
+}
+
+.stocks-button:first-child {
+    margin-right: 40px;
+}
+
+.food-button {
+    background: url("../img/food-button-nonactive.svg") center no-repeat;
+}
+
+.food-button:hover {
+    background: url("../img/food-button-active.svg") center no-repeat;
+    border: 2px solid #EF7A47;
+}
+
+.flower-button {
+    background: url("../img/flower-button-nonactive.svg") center no-repeat;
+}
+
+.flower-button:hover {
+    background: url("../img/flower-button-active.svg") center no-repeat;
+    border: 2px solid #EF7A47;
+}
+
+
 /* Адаптив Доп. элементы */
 
 .menu-burger {
